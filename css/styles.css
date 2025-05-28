@@ -85,6 +85,7 @@ button:focus{
     font-style: normal;
     color: #434455;
     display: flex;
+    gap: 40px;
 }
 .adress-list{
     display: flex;
@@ -99,15 +100,18 @@ button:focus{
 .studio{
     color: #2e2f42;
 }
-.title-button{
-   width: 169px;
-   height: 60px;
-   font-size: 35%;
-}
 
 .header-nav, .nav-list{
     display: flex;
-    gap: 50px;
+    gap: 40px;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.main-button{
+    display: flex;
+    text-align: center;
+   margin-right: 76px;
 }
 /* #endregion header*/
 /* #region features*/
@@ -218,14 +222,10 @@ h1, h2, h3, h4, h5, h6, p, ul{
     font-family: 'Roboto', sans-serif;
 }
 
-.main-button{
-    display: flex;
-    text-align: center;
-}
-
 .container{
-    padding-left: 156px;
-    padding-right: 156px;
+    width: 1158px;
+    margin: 0, auto;
+    padding: 0 15px;
 }
 
 Section{
@@ -235,4 +235,10 @@ Section{
 
 img{
     display: block;
+}
+
+.title-button{
+   width: 169px;
+   height: 60px;
+   font-size: 35%;
 }
