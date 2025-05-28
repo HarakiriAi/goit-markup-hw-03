@@ -65,6 +65,7 @@ header{
     justify-content: center;
     flex: auto;
     border-bottom: 1px solid #999;
+    font-weight: 500;
 }
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -97,6 +98,16 @@ header{
 }
 .studio{
     color: #2e2f42;
+}
+.title-button{
+   width: 169px;
+   height: 60px;
+   font-size: 35%;
+}
+
+.header-nav, .nav-list{
+    display: flex;
+    gap: 50px;
 }
 /* #endregion header*/
 /* #region features*/
@@ -207,16 +218,6 @@ h1, h2, h3, h4, h5, h6, p, ul{
     font-family: 'Roboto', sans-serif;
 }
 
-.title-button{
-   width: 169px;
-   height: 60px;
-   font-size: 35%;
-}
-
-.header-nav, .nav-list{
-    display: flex;
-    gap: 80px;
-}
 .main-button{
     display: flex;
     text-align: center;
