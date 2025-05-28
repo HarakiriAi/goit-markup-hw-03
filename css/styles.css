@@ -62,8 +62,6 @@ button:focus{
     display: flex;
     height: 72px;
     margin: 0;
-    justify-content: center;
-    flex: auto;
     border-bottom: 1px solid #e7e9fc;
     font-weight: 500;
 }
@@ -101,14 +99,18 @@ button:focus{
     color: #2e2f42;
 }
 
-.header-nav, .nav-list{
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
     display: flex;
     gap: 40px;
-    align-items: center;
     padding: 24px 0;
 }
 
-.main-button{
+.main-logo{
     display: flex;
     text-align: center;
    margin-right: 76px;
@@ -224,7 +226,7 @@ h1, h2, h3, h4, h5, h6, p, ul{
 
 .container{
     width: 1158px;
-    margin: 0, auto;
+    margin: 0 auto;
     padding: 0 15px;
 }
 
