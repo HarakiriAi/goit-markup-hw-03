@@ -5,6 +5,7 @@ body{
     letter-spacing: 0.02em;
     color: #434455;
     background-color: #FFFFFF;
+    margin: 0 auto;
 }
 
 h1, h2, h3 {
@@ -49,6 +50,7 @@ button:focus, button:hover{
 
 .team{
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team > .title {
@@ -57,12 +59,19 @@ button:focus, button:hover{
     text-transform: capitalize;
 }
 
+.team-list{
+    display: flex;
+    gap: 32px;
+}
+
 .team-list-item{
     background-color: #FFFFFF;
     font-weight: 500;
     letter-spacing: 0.02em;
     line-height: 1.2;
     text-align: center;
+    width: calc(100% - 72px) / 4;
+    border-radius: 0 0 4px 4px;
 }
 
 .team-list-heading{
@@ -80,6 +89,9 @@ button:focus, button:hover{
 
 .hero{
     background-color: #2E2F42;
+    margin-top: 0 auto;
+    padding: 188px 0;
+    align-items: center;
 }
 
 .logo{
@@ -89,7 +101,9 @@ button:focus, button:hover{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5
+    color: #4d5ae5;
+    margin-right: 76px;
+
 }
 
 .studio{
@@ -114,6 +128,37 @@ button:focus, button:hover{
 
 .studio > .footer{
     color: #f4f4fd;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    margin: 0 auto;
+}
+
+.a-list{
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+    margin: 0 auto;
+}
+
+.a-list-item:first-child{
+    margin-left: 286px;
+}
+
+.nav-list-item{
+    margin-right: 40px;
+    padding: 24px 0;
+}
+
+.nav-list-item:last-child,
+.a-list-item:last-child{
+    margin-right: 0;
 }
 
 .nav-list-item-url{
@@ -151,12 +196,21 @@ a{
 .hero-title{
     line-height: 1.07;
     text-align: center;
+    margin: 0 auto;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .hero-button{
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-weight: 500;
+    display: block;
+    border: none;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    margin: 0 auto;
 
 }
 
@@ -174,6 +228,7 @@ a{
 .approach-heading{
     font-weight: 500;
     line-height: 1.2;
+    margin-bottom: 8px;
 
 }
 
@@ -213,4 +268,53 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+img{
+    display: block;
+}
+
+.header{
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-div{
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.approach{
+    padding: 120px 0;
+}
+
+.approach-list{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.approach-list-item{
+    width: calc(100% - 72px) / 4;
+
 }
