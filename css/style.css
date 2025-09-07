@@ -70,17 +70,20 @@ button:focus, button:hover{
     background-color: #FFFFFF;
     font-weight: 500;
     letter-spacing: 0.02em;
-    width: calc(100% - 3 * 24px) / 4;
     line-height: 1.2;
     text-align: center;
     border-radius: 0 0 4px 4px;
+}
+
+.team-container{
+    padding: 32px 0;
 }
 
 .team-list-heading{
     font-weight: 500;
     line-height: 1.2;
     text-align: center;
-
+    margin-bottom: 8px;
 
 }
 
@@ -111,7 +114,7 @@ button:focus, button:hover{
 
 }
 
-.footer > .logo{
+.footer-logo{
     margin-bottom: 16px;
 }
 
@@ -234,6 +237,20 @@ a{
 
 }
 
+.approach {
+    padding: 120px 0;
+}
+
+.approach-list {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.approach-list-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
+
 .approach-heading{
     font-weight: 500;
     line-height: 1.2;
@@ -339,19 +356,4 @@ img{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-}
-
-.approach{
-    padding: 120px 0;
-}
-
-.approach-list{
-    display: flex;
-    gap: 24px;
-    align-items: center;
-}
-
-.approach-list-item{
-    width: calc((100% - 3 * 24px) / 4);
-
 }
