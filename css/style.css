@@ -64,10 +64,7 @@ button:focus, button:hover{
 .team-list{
     display: flex;
     gap: 24px;
-}
-
-.team-container{
-    padding: 32px;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-list-item{
@@ -77,7 +74,6 @@ button:focus, button:hover{
     line-height: 1.2;
     text-align: center;
     border-radius: 0 0 4px 4px;
-    width: calc((100% - 72px) / 4);
 }
 
 .team-list-heading{
