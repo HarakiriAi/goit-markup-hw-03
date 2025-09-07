@@ -166,6 +166,7 @@ button:focus, button:hover{
     display: flex;
     gap: 40px;
     margin: 0 auto;
+    padding: 24px 0;
 }
 .a-list-item:first-child{
     margin-left: 286px;
