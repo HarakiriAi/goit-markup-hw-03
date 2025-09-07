@@ -75,7 +75,7 @@ button:focus, button:hover{
     border-radius: 0 0 4px 4px;
 }
 
-.team-container{
+.div-team{
     padding: 32px 0;
 }
 
@@ -116,6 +116,16 @@ button:focus, button:hover{
 
 .footer-logo{
     margin-bottom: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+    display: inline-block;
+
 }
 
 .studio{
@@ -247,8 +257,8 @@ a{
     align-items: center;
 }
 
-.approach-list-item {
-    width: calc((100% - 3 * 24px) / 4);
+.approach-list-item{
+    width: calc((100% - 48px) / 3);
 }
 
 .approach-heading{
@@ -298,6 +308,13 @@ a{
 
 .portfolio-list-item{
     width: calc((100% - 48px) / 3);
+
+}
+
+.portfolio-list-item-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 
 }
 
