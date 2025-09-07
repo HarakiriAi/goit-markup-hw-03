@@ -67,8 +67,7 @@ button:focus, button:hover{
 }
 
 .team-container{
-    padding: 32px 0;
-
+    padding: 32px;
 }
 
 .team-list-item{
@@ -77,16 +76,14 @@ button:focus, button:hover{
     letter-spacing: 0.02em;
     line-height: 1.2;
     text-align: center;
-    width: calc(100% - 72px) / 4;
     border-radius: 0 0 4px 4px;
-    gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .team-list-heading{
     font-weight: 500;
     line-height: 1.2;
     text-align: center;
-    margin-bottom: 8px;
 
 
 }
@@ -179,6 +176,7 @@ button:focus, button:hover{
     color: #2e2f42;
     font-weight: 500;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 
 }
 
@@ -195,7 +193,6 @@ button:focus, button:hover{
 .a-list-item-url{
     font-style: normal;
     color: #434455;
-    padding: 24px 0;
 }
 
 .a-list-item-url:hover,
