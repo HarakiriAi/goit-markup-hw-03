@@ -76,6 +76,7 @@ button:focus, button:hover{
     line-height: 1.2;
     align-items: center;
     border-radius: 0 0 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .div-team{
