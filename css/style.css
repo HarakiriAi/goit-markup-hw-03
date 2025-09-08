@@ -64,6 +64,7 @@ button:focus, button:hover{
 .team-list{
     display: flex;
     gap: 24px;
+    max-width: 100%;
 }
 
 .team-list-item{
@@ -258,6 +259,7 @@ a{
     display: flex;
     gap: 24px;
     align-items: center;
+    max-width: 100%;
 }
 
 .approach-list-item{
@@ -307,6 +309,7 @@ a{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    max-width: 100%;
 }
 
 .portfolio-list-item{
@@ -319,7 +322,6 @@ a{
     border: 1px solid #e7e9fc;
     border-top: none;
     margin: 0 auto;
-    width: 360px;
 
 }
 
@@ -361,6 +363,8 @@ a{
 
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .header{
