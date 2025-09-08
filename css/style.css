@@ -36,6 +36,8 @@ ul{
     list-style: none;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    margin: 0;
+    padding-left: 0;
 }
 
 button{
@@ -260,6 +262,7 @@ a{
     gap: 24px;
     align-items: center;
     max-width: 100%;
+    margin: 0;
 }
 
 .approach-list-item{
